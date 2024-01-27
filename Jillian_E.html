@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jian's Resume</title>
+    <!-- Font Awesome stylesheet -->
+    <link rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding-left: 4%;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .left-container {
+            width: 33%;
+            background-color: deeppink;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .right-container {
+            width: 66%;
+            background-color: pink;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .image-container {
+            text-align: left;
+        }
+
+        img {
+            max-width: 39%;
+            height: 39%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .image-container2 {
+            text-align: left;
+            display: flex; /* Add this line to make the images in a horizontal line */
+        }
+
+        .image-container2 img {
+            max-width: 41%; /* Set max-width to 50% to make them share the container equally */
+            height: 39%;
+            margin: 0; /* Remove margin for spacing */
+            padding: 0; /* Remove padding for spacing */
+        }
+
+        .text-container {
+            text-align: center;
+        }
+
+        .personal-info {
+            margin-top: 20px;
+            color: #fff;
+        }
+
+        h2 {
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        .profile-container {
+            margin-top: 20px;
+        }
+
+        h1, h3, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* New CSS for horizontal alignment */
+        .education-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .education-item h3 {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        .education-item p {
+            flex: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="image-container">
+                <img src="image/jian.jpg" alt="Profile Image">
+            </div>
+            <h2 class="personal-info">Personal Information</h2>
+            <p><i class="fas fa-calendar-alt"></i> <strong>Date of Birth:</strong> 07/31/2003</p>
+            <p><i class="fas fa-globe"></i> <strong>Nationality:</strong> FILIPINO</p>
+            <p><i class="fas fa-language"></i> <strong>Languages:</strong> English (Basic), Tagalog, Bicol</p>
+
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Cooking</li>
+                <li>Drawing</li>
+                <li>Crocheting</li>
+                <li>Singing</li>
+                <li>Listening to Music</li>
+                <li>Playing Guitar</li>
+            </ul>
+
+            
+            <h2>Social Media Account</h2>
+            <ul>
+                <li><i class="fab fa-facebook"></i> Jillian Garao Elimanco</li>
+                <li><i class="fab fa-instagram"></i> briilei</li>
+            </ul>
+        </div>
+
+        <div class="right-container">
+            <div class="profile-container">
+                <div class="text-container">
+                    <h1>Jillian G. Elimanco</h1>
+                    <p>You Can Call Me</p>
+                    <p>Jian</p>
+                </div>
+            </div>
+
+            <div class="profile-container">
+                <h2>Educational Attainment</h2>
+
+                <div class="education-item">
+                    <h3>2022- Present</h3>
+                    <p>
+                        <strong>College</strong><br>
+                        Bicol University - Polangui<br>
+                        Polangui, Albay
+                    </p>
+                </div>
+
+                <div class="education-item">
+                    <h3>2019- 2022</h3>
+                    <p>
+                        <strong>Senior High School</strong><br>
+                        Polangui, General, Comprehensive, High School<br>
+                        Polangui, Albay<br>
+                        With Honor
+                    </p>
+                </div>
+
+                <div class="education-item">
+                    <h3>2015- 2019</h3>
+                    <p>
+                        <strong>High School</strong><br>
+                        Polangui, General, Comprehensive, High School<br>
+                        Polangui, Albay<br>
+                        Grade 7- With Honor<br>
+                        Grade 9- With Honor
+                    </p>
+                </div>
+
+                <div class="education-item">
+                    <h3>2009- 2015</h3>
+                    <p>
+                        <strong>Elementary</strong><br>
+                        Sugcad Elementary School<br>
+                        Sugcad, Polangui, Albay<br>
+                        Grade 1- Third Honor<br>
+                        Grade 2-6 With Honor
+                    </p>
+                </div>
+
+                <div class="education-item">
+                    <h3>2008 - 2009</h3>
+                    <p>
+                        <strong>Daycare</strong><br>
+                        Daycare Center 2<br>
+                        Sugcad, Polangui, Albay<br>
+                        First Honor
+                    </p>
+                </div>
+
+                <h2>Some Artworks of Jian</h2>
+                <div class="image-container2">
+                    <img src="image/crying_girl.jpg">
+                    <img src="image/grigmar.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
